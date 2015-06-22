@@ -31,9 +31,7 @@ When installed, you'll have to run the following command to connect to the board
     sudo screen /dev/ttyUSB0 115200
 ```
 
-If promped, enter your password. You should then see this :
-
-![enter image description here](https://lh3.googleusercontent.com/i3z1wK3Ekzj2y6jolCoJ29HQSd37_PjUdxgUrHe5pU8idoDYtwZf4FP49I81nmFgT_S2Q2Rn5GTa674=w1167-h767)
+If promped, enter your password.
 
 By default, the login is **root**, without password.
 
