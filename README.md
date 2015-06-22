@@ -49,23 +49,32 @@ Learn the basics of Kevoree. How to write your own components targeting the Kevo
 > Nb2: if the right-click on `package.json > Run as > npm install` throws an exception, then be sure that `Nodeclipse` is well configured.
 
 ### 1.HelloWorld
-[Java Tutorial](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/1.HelloWorld/java)  
-[JavaScript Tutorial](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/1.HelloWorld/js)
+[Java Tutorial](https://github.com/barais/EJCP15/tree/master/1.HelloWorld/java)  
+[JavaScript Tutorial](https://github.com/barais/EJCP15/tree/master/1.HelloWorld/js)
 
 ### 2.HelloWorld++
-[Java Tutorial](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/2.HelloWorld++/java)  
-[JavaScript Tutorial](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/2.HelloWorld++/js)
+[Java Tutorial](https://github.com/barais/EJCP15/tree/master/2.HelloWorld++/java)  
+[JavaScript Tutorial](https://github.com/barais/EJCP15/tree/master/2.HelloWorld++/js)
 
 ### 3.Runtime reconfigurations using the Kevoree Web Editor
-[Java Tutorial](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/3.Runtime_Reconfigurations/java)  
-[JavaScript Tutorial](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/3.Runtime_Reconfigurations/js)
+[Java Tutorial](https://github.com/barais/EJCP15/tree/master/3.Runtime_Reconfigurations/java)  
+[JavaScript Tutorial](https://github.com/barais/EJCP15/tree/master/3.Runtime_Reconfigurations/js)
 
 ### 4.It's about sending a message
-[Java Tutorial](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/4.Its_About_Sending_A_Message/java)  
-[JavaScript Tutorial](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/4.Its_About_Sending_A_Message/js)
+[Java Tutorial](https://github.com/barais/EJCP15/tree/master/4.Its_About_Sending_A_Message/java)  
+[JavaScript Tutorial](https://github.com/barais/EJCP15/tree/master/4.Its_About_Sending_A_Message/js)
 
 ### 5.Distributed System
-[Tutorial](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/5.Distributed_System)
+[Tutorial](https://github.com/barais/EJCP15/tree/master/5.Distributed_System)
 
-### 6.Contrib
-[DIY](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/6.Contrib)
+### 6.TypeScript
+[Tutorial](https://github.com/barais/EJCP15/tree/master/6.TypeScript)
+
+### 7.IotWithEdison
+[Tutorial](https://github.com/barais/EJCP15/tree/master/7.IotWithEdison)
+
+### 8.IoTWithNodeRed
+[Tutorial](https://github.com/barais/EJCP15/tree/master/8.IoTWithNodeRed)
+
+### 9.NodeRedWithKevoree
+[Tutorial](https://github.com/barais/EJCP15/tree/master/9.NodeRedWithKevoree)
