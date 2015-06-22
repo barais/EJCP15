@@ -13,14 +13,16 @@
     "filesGlob": [
         "./**/*.ts",
         "../../../../*.ts",
+        "../../../../typings/*.ts",
+        "../../../../typings/node/*.ts",
         "!./node_modules/**/*.ts",
         "!../../../../node_modules/**/*.ts"
     ],
     "files": [
         "./MyComp.ts",
-        "./typings/node/node.d.ts",
-        "./typings/tsd.d.ts",
         "../../../../kevoree-commons.d.ts",
-        "../../../../kevoree-entities.d.ts"
+        "../../../../kevoree-entities.d.ts",
+        "../../../../typings/tsd.d.ts",
+        "../../../../typings/node/node.d.ts"
     ]
 }
