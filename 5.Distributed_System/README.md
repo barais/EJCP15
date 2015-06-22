@@ -61,7 +61,7 @@ So now you should be able to use `kevoreejs`, which is the executable command-li
 ```sh
 ╭─leiko@kevtop ~  
 ╰─➤  kevoreejs -v
-5.1.1
+5.3.0
 ```
 
 Let's use `kevoreejs` to run the **jsNode** from your KevScript `starterModel.kevs`
@@ -101,21 +101,19 @@ Click on the editor menu **KevScript**, remove the content (or append to it)
 
 ```txt
 // add the Ticker on the Java platform
-add javaNode.ticker : Ticker/5.2.2
+add javaNode.ticker : Ticker
 
 // add the ConsolePrinter and the WSMsgBroker on the JS platform
-add jsNode.printer : ConsolePrinter/5.2.2
-add jsNode.broker : WSMsgBroker
-
-// define on which port the broker will start
-set jsNode.broker.port = '9050'
+add jsNode.printer : ConsolePrinter
 
 // add a WSChan to transmit the messages between the Ticker and the ConsolePrinter
-add chan : WSChan/5.2.3-SNAPSHOT
+add chan : RemoteWSChan
 
 // give the host:port of the broker to the chan
-set chan.host = "localhost"
-set chan.port = "9050"
+set chan.host = "ws.kevoree.org"
+set chan.port = "80"
+set chan.path = "/"
+set chan.uuid = 'kokoko'
 
 // bind the ticker to the chan
 bind javaNode.ticker.tick chan
@@ -130,6 +128,18 @@ bind jsNode.printer.input chan
 ![Big picture](.readme/big_picture.png)
 
 Now, click on the **jsNode** and **Push** your new model. You should see the adaptations taking part on both runtimes if you switch back to their console.
+
+You can also start your own WebSocket server and change the parameter in your kevscript.
+
+```sh
+npm -i ws-broadcast
+wsb 9050
+```
+
+```txt
+set chan.host = "locahost"
+set chan.port = "9050"
+```
 
 #### Conclusion
 You have successfully built a distributed reconfigurable cross-platform system using **Kevoree** that sends messages from a Java ticker component to a JavaScript console printer component, using a fragmented (Java/Js) channel that communicates through the use of Web Sockets.
