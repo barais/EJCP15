@@ -6,8 +6,8 @@ module.exports = function(grunt) {
         // Task configuration.
         typescript: {
             base: {
-                src: ['examples/src/**/*.ts'],
-                dest: 'gen',
+                src: ['examples/src/headstempcomp/**/*.ts'],
+                dest: 'gen/src/headstempcomp/lib',
                 options: {
                     module: 'commonjs',
                     target: 'es5',

@@ -1,44 +1,22 @@
-# kevoree-js.d.ts
-The goal of this step is to develop Kevoree Entities using (TypeScript)[http://www.typescriptlang.org/]
+#Your own component in typescript on top of MRAA
 
-### Available declarations
-- kevoree-entities (partially)
-- kevoree-commons (partially)
+This project provides a simple example of  Kevoree Component written in typescript. This component use  MRAA to get value from Edison.
 
-### Examples
-You can find some TypeScript usage examples in the `examples/` folder.
-In order to generate the JavaScript from it, you must first install the project dependencies:
+To build your project
 
 ```sh
 npm install
-```
-
-And then run the default grunt task:
-```sh
 grunt
 ```
-The generated JavaScript sources are located in the `gen/` folder
 
-### Test the examples
-In order to tests the generated javascript, you must change your directory to `gen/src/mychan`, `gen/src/mycomp`
-or `gen/src/mygroup` and run:
+To run your component, copy gen folder to edison using scp.
 
-Only the first time:
 ```sh
+cd gen/src/headstempcomp
+npm install mraa
 npm install
-```
-
-Then:
-```sh
 grunt kevoree
 ```
 
-You can use atom to edit your typescript.
 
-```sh
-atom your typescriptfile.ts
-```
-
-#Your own component in typescript on top of MRAA
-
-Build a simple component that get data from sensors in taking information from MRAA.
+Copy this example and build a simple component that get data from sensors in taking information from MRAA.
