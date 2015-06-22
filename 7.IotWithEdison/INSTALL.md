@@ -29,7 +29,7 @@ When installed, you'll have to run the following command to connect to the board
 
 ```sh
     sudo screen /dev/ttyUSB0 115200
-    ```
+```
 
 If promped, enter your password. You should then see this :
 
@@ -56,7 +56,7 @@ You can also configure these things separately, by using these commands :
     configure_edison --name
     configure_edison --password
     configure_edison --wifi
-    ```
+```
 
 > A wifi connection is necessary to continue
 
@@ -71,7 +71,7 @@ If not, type the following command.
 
 ```sh
     date --set "YYYY-MM-DD hh:mm"
-    ```
+```
 
 
 Node.js will allow you to create useful programs in Javascript for your board.
@@ -83,19 +83,19 @@ To install this package, run these commands :
     echo "src/gz edison http://repo.opkg.net/edison/repo/edison" >> /etc/opkg/base-feeds.conf  
 
     echo "src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32" >> /etc/opkg/base-feeds.conf
-    ```
+```
 
 Then, run
 
 ```sh
     opkg update
-    ```
+```
 
    Finally, you can install Node.js :
 
-   ```sh
+```sh
     opkg install nodejs
-    ```
+```
 
 You can now work with Node.js on your board !
 
@@ -103,6 +103,6 @@ The MRAA library will allow you to interact with the IO of your board. To get mo
 
 To install this package, nothing more simple, run :
 
-  ```sh
+```sh
     npm install -g mraa
 ```
