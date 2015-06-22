@@ -1,3 +1,11 @@
+Internet of Things with Intel Edison
+=======
+
+Intel Edison is a tiny computer, developed by Intel. This computer can be connected in wifi, so it's a great tool to work on the **Internet of Things** (or IoT).
+
+![Intel Edison](http://www.seeedstudio.com/depot/images/102990161%201.jpg)
+
+
 #Your own component in typescript on top of MRAA
 
 This project provides a simple example of  Kevoree Component written in typescript. This component use  MRAA to get value from Edison.
