@@ -1,0 +1,23 @@
+add jsNode : JavascriptNode/5.0.6
+add javaNode : JavaNode/5.2.9
+add jsNode.comp114 : ConsolePrinter/5.2.9
+add jsNode.comp442 : WSMsgBroker/2.0.0
+add javaNode.comp787 : Ticker/5.2.9
+add group : WSGroup/5.2.9
+add chan842 : WSChan/5.2.9
+
+attach jsNode, javaNode group
+
+bind jsNode.comp114.input chan842
+bind javaNode.comp787.tick chan842
+
+set jsNode.comp442.port = '9050'
+set jsNode.comp442.path = '/'
+set javaNode.comp787.random = 'true'
+set group.master = 'jsNode'
+set chan842.host = '127.0.0.1'
+set chan842.port = '9050'
+set chan842.path = '/'
+
+network jsNode.ip.lo 127.0.0.1
+network javaNode.ip.lo 127.0.0.1
