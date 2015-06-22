@@ -1,4 +1,4 @@
-HEADS Kevoree runtime management basics
+EJCP 15 Tutorial
 ===
 
 ![HEADS](http://heads-project.eu/sites/default/files/heads_large.png)
@@ -24,7 +24,7 @@ Learn the basics of Kevoree. How to write your own components targeting the Kevo
 ### 0.General features of the HEADS IDE
   - **New Kevoree Java Project**
     - *From existing sources*: **File** > **Import** > **Maven** > **Existing Maven Project**  
-      - Select a java tutorial folder like  `path/to/2.Kevoree_Basics/1.HelloWorld/java` and import it  
+      - Select a java tutorial folder like  `path/to/Kevoree_Basics/1.HelloWorld/java` and import it  
       - **Right-click** on the project name > **Configure** > Then be sure it says *Remove Kevoree nature*  
         If it says *Add Kevoree nature*, then click on it, otherwise you are good to go.
     - *From scratch*: **File** > **New** > **Project** > **Kevoree** > **New Kevoree Project** > **Next**  
@@ -40,7 +40,7 @@ Learn the basics of Kevoree. How to write your own components targeting the Kevo
       - Use template HelloWorld
       - Click **Finish**
     - *From scratch*:
-      - Follow the [first step](https://github.com/HEADS-project/training/tree/master/2.Kevoree_Basics/1.HelloWorld/js) of the Kevoree JavaScript Tutorial n°1
+      - Follow the [first step](https://github.com/barais/EJCP15/tree/master/1.HelloWorld/js) of the Kevoree JavaScript Tutorial n°1
       - Now use the same process as for *From existing sources*
 
 
