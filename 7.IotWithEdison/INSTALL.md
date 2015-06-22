@@ -23,7 +23,7 @@ Then, if not installed, install the package  **screen** :
 ```sh
     sudo apt-get update
     sudo apt-get install screen
-    ```
+```
 
 When installed, you'll have to run the following command to connect to the board :
 
