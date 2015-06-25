@@ -34,6 +34,8 @@ Next go to [http://localhost:9090/](http://localhost:9090/). You can see that we
 :warning:
 If you modify the flow, you must export it in the clipboard, set it to your kevoree model and push it to your nodes.
 
+To do it, go to the top right of your NodeRED UI and select export to the clipboard. Go to your kevoree editor. Select your NodeRED component. Go to the properties view and copy past into the flow property text editor.
+
 ##Step 2:
 
 In a second step, we will start a node with a specific flow.
@@ -48,4 +50,4 @@ Open your browser:
 Pull the model.
 
 ##Step 3:
-Build your own flow to get data from your sensor and send them to twitter. 
+Build your own flow to get data from your sensor and send them to twitter.
