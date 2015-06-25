@@ -29,7 +29,7 @@ attach node0 sync
 
 Next go to [http://localhost:9090/](http://localhost:9090/). You can see that we generate two elements in the flow that corresponds to the kevoree input and output ports.
 
-[image](.readme/Snap1.png)
+![NodeRed and Kevoree](.readme/Snap1.png)
 
 ##Step 2:
 
