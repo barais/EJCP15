@@ -47,7 +47,7 @@ kevoreejs -n node0 -k step1.kevs
 Open your browser:
 [http://kwe.braindead.fr](http://kwe.braindead.fr)
 
-Pull the model.
+Pull the model. You can modify it and use it in a distributed and heterogeneous architecture. 
 
 ##Step 3:
 Build your own flow to get data from your sensor and send them to twitter.
