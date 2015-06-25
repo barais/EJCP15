@@ -31,6 +31,21 @@ Next go to [http://localhost:9090/](http://localhost:9090/). You can see that we
 
 ![NodeRed and Kevoree](.readme/Snap1.png)
 
+:warning:
+If you modify the flow, you must export it in the clipboard, set it to your kevoree model and push it to your nodes.
+
 ##Step 2:
 
-To use this component you can start a node with a specific kevs
+In a second step, we will start a node with a specific flow.
+
+```sh
+kevoreejs -n node0 -k step1.kevs
+```
+
+Open your browser:
+[http://kwe.braindead.fr](http://kwe.braindead.fr)
+
+Pull the model.
+
+##Step 3:
+Build your own flow to get data from your sensor and send them to twitter. 
