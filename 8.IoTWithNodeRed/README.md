@@ -7,47 +7,6 @@ Intel Edison is a tiny computer, developed by Intel. This computer can be connec
 
 > This tutorial is written using Linux x64
 
-[TOC]
-
-
-###  Read an analog input ###
-
-We're now going to see how to read an analog input of any sensor connected on the board.
-
-First, plug your component (any sensor, really, that's not important, personally, I'm using a Rotary Angle Sensor,  [this one](https://software.intel.com/en-us/iot/hardware/sensors/grove-rotary-angle-sensor)).
-
-Then, create a new file in the file root (**/home/root**). This will be the script.
-Name it **analog.js** (This is just an example, the name isn't important at all, it just has to be a .js file).
-
-Open it with your text editor. Now you can start programming on your board ! Exciting huh ?
-
-So with the following script, you can display the values of the analog sensor plugged on the A0 input :
-
-```js
-    var m = require('mraa'); //require mraa
-	console.log('MRAA Version: ' + m.getVersion()); //write the mraa version to the console
-
-	var analogPin0 = new m.Aio(0); //setup access analog inpuput pin 0
-	var analogValue = analogPin0.read(); //read the value of the analog pin
-	var analogValueFloat = analogPin0.readFloat(); //read the pin value as a float
-		console.log(analogValue); //write the value of the analog pin to the console
-		console.log(analogValueFloat.toFixed(5)); //write the value in the float format
-```
-
-You can get the entire script [here](https://github.com/intel-iot-devkit/mraa/tree/master/examples/javascript), with some others too. Don't hesitate to check them.
-
-
-
-Then, save the file and execute it via the Linux terminal :
-
-```sh
-    node analog.js
-```
-
-This will display the current value of the sensor !
-
-> You can stop any node process by typing ctrl-c
-
 
 ##  Node-RED##
 ###  Installation###
